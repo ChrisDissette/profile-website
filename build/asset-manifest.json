@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3aa46a45.chunk.css",
+    "main.js": "/static/js/main.d16b8261.chunk.js",
+    "main.js.map": "/static/js/main.d16b8261.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4068b49.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4068b49.js.map",
+    "static/js/2.89bb36c7.chunk.js": "/static/js/2.89bb36c7.chunk.js",
+    "static/js/2.89bb36c7.chunk.js.map": "/static/js/2.89bb36c7.chunk.js.map",
+    "static/js/3.667488e8.chunk.js": "/static/js/3.667488e8.chunk.js",
+    "static/js/3.667488e8.chunk.js.map": "/static/js/3.667488e8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3aa46a45.chunk.css.map": "/static/css/main.3aa46a45.chunk.css.map",
+    "static/js/2.89bb36c7.chunk.js.LICENSE.txt": "/static/js/2.89bb36c7.chunk.js.LICENSE.txt",
+    "static/media/eightBall.ee934ef0.jpg": "/static/media/eightBall.ee934ef0.jpg",
+    "static/media/football.fe91a974.png": "/static/media/football.fe91a974.png",
+    "static/media/linkedIn.a7509b75.png": "/static/media/linkedIn.a7509b75.png",
+    "static/media/profilephoto.136bd047.jpg": "/static/media/profilephoto.136bd047.jpg",
+    "static/media/starwars2.af185f3d.png": "/static/media/starwars2.af185f3d.png",
+    "static/media/todo1.fb2dcb39.png": "/static/media/todo1.fb2dcb39.png",
+    "static/media/twitter.a1934cb1.png": "/static/media/twitter.a1934cb1.png",
+    "static/media/water.8bfddf16.jpg": "/static/media/water.8bfddf16.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4068b49.js",
+    "static/js/2.89bb36c7.chunk.js",
+    "static/css/main.3aa46a45.chunk.css",
+    "static/js/main.d16b8261.chunk.js"
+  ]
+}
