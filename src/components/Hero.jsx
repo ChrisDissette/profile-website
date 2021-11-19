@@ -57,7 +57,7 @@ const Hero = () => {
                 <header className='hero'>
                     <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})} collapsedHeight={50} >
                         <Typography variant='h3' fontWeight='bold' gutterBottom className='intro' >Hey 👋, I'm</Typography>
-                        <Typography variant='h1' fontWeight='bold' gutterBottom sx={{mt:5}} className={classes.firstName} >Chris Dissette </Typography>
+                        <Typography variant='h1' fontWeight='bold' gutterBottom sx={{mt:5}} className={classes.firstName} >Christopher Dissette </Typography>
                         <Typography variant='h4' fontWeight='bold' className='subtitle' gutterBottom>A <span>{hobby}</span> based in Chicago</Typography>
                     </Collapse>
                     <br />

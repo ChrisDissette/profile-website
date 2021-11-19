@@ -16,18 +16,6 @@ span {
   color: #6C63FF
 }
 
-span:hover {
-  cursor: pointer;
-}
-
-/* .intro {
-  opacity: 80%;
-}
-
-
-.subtitle {
-  opacity: 70%;
-} */
 
 .profile-pic {
   shape-outside: circle(50%);
