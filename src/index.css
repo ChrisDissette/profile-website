@@ -20,14 +20,14 @@ span:hover {
   cursor: pointer;
 }
 
-.intro {
+/* .intro {
   opacity: 80%;
 }
 
 
 .subtitle {
   opacity: 70%;
-}
+} */
 
 .profile-pic {
   shape-outside: circle(50%);
