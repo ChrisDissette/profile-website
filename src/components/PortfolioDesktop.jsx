@@ -73,7 +73,7 @@ const PortfolioDesktop = () => {
                         <Grid container mt={5} direction={{xs:'column', sm:'column', md:'row', lg:'row'}} >
 
                             <Grid item xs={6} height={450} bgcolor='primary.main' className={classes.gridContent} >
-                                <img src={StarWars} className={classes.webPhoto} />
+                                <img src={StarWars} alt="Screenshot of Christopher Dissette's Luke API Walker project" className={classes.webPhoto} />
                             </Grid>
                             
                             <Grid item xs={6} height={450} className={classes.gridContent}>
@@ -93,11 +93,11 @@ const PortfolioDesktop = () => {
                             </Grid>
 
                             <Grid item xs={6} height={450} bgcolor='primary.main' className={classes.gridContent} >
-                                <img src={FantasyFootball} className={classes.webPhoto} />
+                                <img src={FantasyFootball} alt="Screenshot of Christopher Dissette's Draft Order project" className={classes.webPhoto} />
                             </Grid>
 
                             <Grid item xs={6} height={450} bgcolor='primary.main' sx={{display:'flex', alignItems:'center', justifyContent:'center'}} >
-                                <img src={ToDo} className={classes.webPhoto} />
+                                <img src={ToDo} alt="Screenshot of Christopher Dissette's To Do List project" className={classes.webPhoto} />
                             </Grid>
                             
                             <Grid item xs={6}  height={450} className={classes.gridContent}>
@@ -117,11 +117,11 @@ const PortfolioDesktop = () => {
                             </Grid>
 
                             <Grid item xs={6} height={450} bgcolor='primary.main' sx={{display:'flex', alignItems:'center', justifyContent:'center'}} >
-                                <img src={EightBall} className={classes.webPhoto} />
+                                <img src={EightBall} alt="Screenshot of Christopher Dissette's Magic 8 Ball project" className={classes.webPhoto} />
                             </Grid>
 
                             <Grid item xs={6} height={450} bgcolor='primary.main' sx={{display:'flex', alignItems:'center', justifyContent:'center'}} >
-                                <img src={Water} className={classes.webPhoto} />
+                                <img src={Water} alt="Screenshot of Christopher Dissette's Drink Water project" className={classes.webPhoto} />
                             </Grid>
                             
                             <Grid item xs={6}  height={450} className={classes.gridContent}>

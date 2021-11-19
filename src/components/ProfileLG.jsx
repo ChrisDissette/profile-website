@@ -1,7 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ProfilePic from '../assets/profilephoto.jpg'
-import {useState, useEffect} from 'react'
 import { makeStyles } from '@mui/styles';
 
 
@@ -42,7 +41,7 @@ const Profile = () => {
 
                     {/* Image Box */}
                     <Box width='50%' px={5} display='flex' justifyContent='center' alignItems='center'> 
-                        <img className='profile-pic' src={ProfilePic} style={{height:'auto', width: '100%', borderRadius:'50%'}} />
+                        <img className='profile-pic' alt="Profile picture for Christopher Dissette" src={ProfilePic} style={{height:'auto', width: '100%', borderRadius:'50%'}} />
                     </Box>
                 </Box>
             </Box>

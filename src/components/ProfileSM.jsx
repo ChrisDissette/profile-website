@@ -1,7 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ProfilePic from '../assets/profilephoto.jpg'
-import {useState, useEffect} from 'react'
 import { makeStyles } from '@mui/styles';
 
 
@@ -27,7 +26,7 @@ const Profile = () => {
                     {/* Biography Box */}
                     <Box width='75%' px={2} display='flex' justifyContent='center' alignItems='center' flexDirection='column'>
 
-                        <img className='profile-pic' src={ProfilePic} style={{height:'auto', width: '70%', borderRadius:'50%'}} />
+                        <img className='profile-pic' alt="Profile picture for Christopher Dissette" src={ProfilePic} style={{height:'auto', width: '70%', borderRadius:'50%'}} />
 
                         <Typography variant='h4' fontWeight='bold' className='intro' sx={{mt:3}} >Hey 👋, I'm</Typography>
                         <Typography variant='h2' fontWeight='bold' gutterBottom sx={{mt:3}} className={classes.firstName} >Christopher Dissette </Typography>
@@ -39,11 +38,6 @@ const Profile = () => {
                         <br />
                         <Typography variant='body1' className={classes.bodyText}>My short-term goal is to break into the industry by getting my first job as a front-end developer. My long-term goal is to work for myself and combine my digital marketing experience with my web development know-how to become a "one-stop-shop" for individuals and brands that require a strong web presence.</Typography>
                     </Box>
-
-                    {/* Image Box */}
-                    {/* <Box width='50%' px={5} display='flex' justifyContent='center' alignItems='center'> 
-                        
-                    </Box> */}
                 </Box>
             </Box>
     )
