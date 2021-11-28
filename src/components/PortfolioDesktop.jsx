@@ -12,6 +12,8 @@ import MenuItem from '@mui/material/MenuItem'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EightBall from '../assets/eightBall.jpg'
 import Water from '../assets/water.jpg'
+import NASA from '../assets/nasa.jpg'
+
 
 
 const PortfolioDesktop = () => {
@@ -84,6 +86,7 @@ const PortfolioDesktop = () => {
                                 </Box>
                             </Grid>
 
+
                             <Grid item xs={6}  height={450} className={classes.gridContent}>
                                 <Box className={classes.gridCopy}>
                                     <Typography variant='h3' fontWeight='bold' className={classes.title}>Fantasy Football Draft Order</Typography>
@@ -108,6 +111,7 @@ const PortfolioDesktop = () => {
                                 </Box>
                             </Grid>
 
+
                             <Grid item xs={6}  height={450} className={classes.gridContent}>
                                 <Box className={classes.gridCopy}>
                                     <Typography variant='h3' fontWeight='bold' className={classes.title}>Magic Eight Ball</Typography>
@@ -123,7 +127,7 @@ const PortfolioDesktop = () => {
                             <Grid item xs={6} height={450} bgcolor='primary.main' sx={{display:'flex', alignItems:'center', justifyContent:'center'}} >
                                 <img src={Water} alt="Screenshot of Christopher Dissette's Drink Water project" className={classes.webPhoto} />
                             </Grid>
-                            
+
                             <Grid item xs={6}  height={450} className={classes.gridContent}>
                                 <Box className={classes.gridCopy}>
                                     <Typography variant='h3' fontWeight='bold' className={classes.title}>Drink Water</Typography>
@@ -131,6 +135,8 @@ const PortfolioDesktop = () => {
                                     <Button href='https://drink-water-ashen.vercel.app/' target='_blank'  variant='contained' color='secondary' sx={{height:57, width:190, mt:5}}>Launch Site</Button>
                                 </Box>
                             </Grid>
+
+                            
 
                         </Grid>
                         <Box display='flex' justifyContent='center'>

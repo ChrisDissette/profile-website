@@ -28,9 +28,9 @@ const Profile = () => {
 
                     {/* Biography Box */}
                     <Box width='50%' px={2}>
-                        <Typography variant='h4' fontWeight='bold' className='intro' >Hey 👋, I'm</Typography>
+                        <Typography variant='h4' fontWeight='bold' className='intro' >Hey  👋, I'm</Typography>
                         <Typography variant='h2' fontWeight='bold' gutterBottom sx={{mt:5}} className={classes.firstName} >Christopher Dissette </Typography>
-                        <Typography variant='h3' fontWeight='bold' className='subtitle' gutterBottom>A <span>Fullstack Developer</span> based in Chicago</Typography>
+                        <Typography variant='h3' fontWeight='bold' className='subtitle' gutterBottom>A <span className='purple-highlight'>Fullstack Developer</span> based in Chicago</Typography>
 
                         <Typography variant='body1' className={classes.bodyText}>As mentioned above, my name is Christopher Dissette, and I am passionate about web development. I graduated with honors from the Coding Dojo programming boot camp in the summer of 2021 and have obtained multiple certifications from Codecademy since. </Typography>
                         <br />

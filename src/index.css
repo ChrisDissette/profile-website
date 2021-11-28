@@ -12,8 +12,12 @@ body {
   padding: .5rem;
 }
 
-span {
+.purple-highlight {
   color: #6C63FF
+}
+
+.emoji {
+  font-family: "Segoe UI Emoji";
 }
 
 
