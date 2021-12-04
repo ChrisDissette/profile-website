@@ -41,13 +41,13 @@ const Footer = () => {
                 <Box display='flex' alignItems='center' justifyContent='center'>
                 <Box display='flex' justifyContent='space-evenly' alignItems='center' my={3} width={{xs:200}}>
                     <a href="https://github.com/ChrisDissette" target="_blank">
-                        <img src={github} className='too-large' />
+                        <img src={github} className='too-large' alt='github social media link' />
                     </a>
                     <a href="https://www.linkedin.com/in/christopher-dissette-aa8371b3" target="_blank">
-                        <img src={linkedIn} className='too-large' />
+                        <img src={linkedIn} className='too-large' alt='linkedin social media link' />
                     </a>
                     <a href="https://twitter.com/CDissetteDev" target="_blank">
-                        <img src={twitter} className='too-large'  />
+                        <img src={twitter} className='too-large' alt='twitter social media link'  />
                     </a>
                 </Box>
                 </Box>

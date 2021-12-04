@@ -67,7 +67,8 @@ const PortfolioTablet = () => {
 
 
     return (
-        <Box  minHeight='100vh' display='flex' justifyContent='center' mb={5}>
+            <main>
+                <Box  minHeight='100vh' display='flex' justifyContent='center' mb={5}>
                     <Box  minHeight={500} width='85%' mt={5} >
 
                         <Box width='50%'>
@@ -170,6 +171,7 @@ const PortfolioTablet = () => {
                         </Box>
                     </Box>
                 </Box>
+            </main>
     )
 }
 

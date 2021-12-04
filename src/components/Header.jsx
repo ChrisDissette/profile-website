@@ -14,7 +14,7 @@ import { navigate } from '@reach/router'
 
 const Header = () => {
     return (
-        <div>
+        <nav>
           <Box id='top-page' sx={{ flexGrow: 1 }} px={{xs:1, sm:3, md:15, lg:5, xl:20}}>
             <AppBar position="static" elevation={0} sx={{bgcolor:'common.white'}}>
               <Toolbar sx={{height:86}} >
@@ -30,7 +30,7 @@ const Header = () => {
               </Toolbar>
             </AppBar>
           </Box>
-        </div>
+        </nav>
     )
 }
 

@@ -16,10 +16,6 @@ body {
   color: #6C63FF
 }
 
-.emoji {
-  font-family: "Segoe UI Emoji";
-}
-
 
 .profile-pic {
   shape-outside: circle(50%);

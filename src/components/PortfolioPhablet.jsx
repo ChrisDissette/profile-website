@@ -67,7 +67,8 @@ const PortfolioPhablet = () => {
 
 
     return (
-        <Box  minHeight='100vh' display='flex' justifyContent='center'>
+            <main>
+                <Box  minHeight='100vh' display='flex' justifyContent='center'>
                     <Box  minHeight={500} width='85%' mt={5} mb={5} >
 
                         <Box width='75%'>
@@ -185,6 +186,7 @@ const PortfolioPhablet = () => {
 
                     </Box>
                 </Box>
+            </main>
     )
 }
 

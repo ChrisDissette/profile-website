@@ -53,10 +53,10 @@ const Hero = () => {
 
     return (
         <div>
-            <Box minHeight='80vh' display='flex' justifyContent='center' flexDirection='column' textAlign='center' bgcolor='primary.main' px={5} pb={20}>
-                <header className='hero'>
+            <header>
+                <Box minHeight='80vh' display='flex' justifyContent='center' flexDirection='column' textAlign='center' bgcolor='primary.main' px={5} pb={20}>
                     <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})} collapsedHeight={50} >
-                        <Typography variant='h3' fontWeight='bold' gutterBottom className='intro' >Hey <span className='emoji'>👋</span>, I'm</Typography>
+                        <Typography variant='h3' fontWeight='bold' gutterBottom className='intro' >Hey &#x1F44B;, I'm</Typography>
                         <Typography variant='h1' fontWeight='bold' gutterBottom sx={{mt:5}} className={classes.firstName} >Christopher Dissette </Typography>
                         <Typography variant='h4' fontWeight='bold' className='subtitle' gutterBottom>A <span className='purple-highlight'>{hobby}</span> based in Chicago</Typography>
                     </Collapse>
@@ -64,8 +64,8 @@ const Hero = () => {
                     <Scroll to='my-services' smooth={true} >
                         <Button variant='contained' color='secondary' sx={{height:57, width:190, mt:5}}>Let's Get Started</Button>
                     </Scroll>
-                </header>
-            </Box>
+                </Box>
+            </header>
         </div>
     )
 }

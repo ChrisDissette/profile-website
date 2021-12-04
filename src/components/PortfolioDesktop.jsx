@@ -65,6 +65,7 @@ const PortfolioDesktop = () => {
 
 
     return (
+            <main>
                 <Box  minHeight='100vh' display='flex' justifyContent='center' mb={5}>
                     <Box  minHeight={500} width='85%' mt={5} >
 
@@ -173,7 +174,8 @@ const PortfolioDesktop = () => {
                         </Box>
                     </Box>
                 </Box>
-    )
+            </main>    
+            )
 }
 
 export default PortfolioDesktop
